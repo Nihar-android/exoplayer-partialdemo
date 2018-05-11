@@ -55,11 +55,7 @@ import java.net.URI;
 
 public class MainActivity extends AppCompatActivity   {
     private static final int AUDIO = 4;
-    String licenseUrl = "https://wv.service.expressplay.com/hms/wv/rights/?ExpressPlayToken=AwAAABSMKaQAAABgKHS6ft8WMOidI5ZlX5BvRA4VaI_VbDOKkkhmcpKngrEsw-6z43Lumf--pXxV16U0URrdS16VCkhVkbt_bdxYpeMVaizIg4--RaTjXDzlgL1Lj5CuDcSM_6U1e_hbzQK8q6gUMC95CZzFB-PvKBUkbvHvRro";
-    String VideoUrl = "https://d24wqptwv3wyaf.cloudfront.net/uploads/movie_stream/full_movie/49254/stream.mpd";
-
-
-    public static final int NORMAL_MEDIA = 1;
+     public static final int NORMAL_MEDIA = 1;
     public static final int DASH_URL = 2;
     public static final int M3U8_URL = 3;
     // bandwidth meter to measure and estimate bandwidth
